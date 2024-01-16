@@ -34,7 +34,7 @@
         <function_field>false</function_field>
         <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
-        <max_length>400</max_length>
+        <max_length>254</max_length>
         <name>x_520215_solve_solve_request</name>
         <next_element/>
         <primary>false</primary>
@@ -58,7 +58,7 @@
         <sys_scope display_value="Solve">c097ab912f6331102e2aea5ef699b68b</sys_scope>
         <sys_update_name>sys_dictionary_x_520215_solve_solve_request_provide_short_description</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-05 16:46:43</sys_updated_on>
+        <sys_updated_on>2024-01-16 19:56:37</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

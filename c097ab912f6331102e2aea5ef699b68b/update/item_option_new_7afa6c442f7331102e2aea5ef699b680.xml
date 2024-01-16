@@ -7,7 +7,7 @@
         <choice_direction>down</choice_direction>
         <choice_field/>
         <choice_table/>
-        <create_roles/>
+        <create_roles>public</create_roles>
         <default_html_value/>
         <default_value/>
         <delete_roles/>
@@ -26,7 +26,7 @@
         <help_tag>More information</help_tag>
         <help_text/>
         <hidden>false</hidden>
-        <include_none>false</include_none>
+        <include_none>true</include_none>
         <instructions/>
         <layout>normal</layout>
         <list_table/>
@@ -37,19 +37,19 @@
         <lookup_value/>
         <macro/>
         <macroponent/>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <map_to_field>true</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>application_you_need</name>
-        <order>300</order>
+        <order>100</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>What application you need solution/ development for (application reference)</question_text>
+        <question_text>What application you need solution/ development for?</question_text>
         <read_only>false</read_only>
-        <read_roles/>
+        <read_roles>public</read_roles>
         <read_script/>
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
@@ -77,17 +77,17 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-12 21:19:45</sys_created_on>
         <sys_id>7afa6c442f7331102e2aea5ef699b680</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>What application you need solution/ development for (application reference)</sys_name>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>What application you need solution/ development for?</sys_name>
         <sys_package display_value="Solve" source="x_520215_solve">c097ab912f6331102e2aea5ef699b68b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Solve">c097ab912f6331102e2aea5ef699b68b</sys_scope>
         <sys_update_name>item_option_new_7afa6c442f7331102e2aea5ef699b680</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-12 21:19:45</sys_updated_on>
+        <sys_updated_on>2024-01-16 20:48:50</sys_updated_on>
         <table/>
         <tooltip/>
-        <type>2</type>
+        <type>5</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
@@ -101,7 +101,7 @@
         <visible_guide>true</visible_guide>
         <visible_standalone>true</visible_standalone>
         <visible_summary>true</visible_summary>
-        <write_roles/>
+        <write_roles>public</write_roles>
     </item_option_new>
     <sys_translated_text action="delete_multiple" query="documentkey=7afa6c442f7331102e2aea5ef699b680"/>
     <fx_price action="delete_multiple" query="id=7afa6c442f7331102e2aea5ef699b680"/>

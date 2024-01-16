@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="4e7feb992f6331102e2aea5ef699b66c" extends="task" label="Solve Request" max_length="40" name="x_520215_solve_solve_request" type="collection">
         <element label="Acceptance criteria" max_length="400" name="acceptance_criteria" type="string"/>
-        <element label="What application you need solution/ development for (application reference)" max_length="300" name="application_you_need" type="string"/>
+        <element choice="1" label="What application you need solution/ development for?" max_length="200" name="application_you_need" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="IT Service Management" sequence="10" value="IT Service Management"/>
+                <element inactive_on_update="false" label="HR Service Delivery" sequence="20" value="HR Service Delivery"/>
+                <element inactive_on_update="false" label="Customer Service Management" sequence="30" value="Customer Service Management"/>
+                <element inactive_on_update="false" label="Integrations" sequence="150" value="Integrations"/>
+                <element inactive_on_update="false" label="Service Portal" sequence="180" value="Service Portal"/>
+                <element inactive_on_update="false" label="Custom Applications" sequence="200" value="Custom Applications"/>
+            </choice>
+        </element>
         <element label="Code / script" max_length="40" name="code_script" type="boolean"/>
         <element label="Company Name" max_length="200" name="company_name" type="string"/>
         <element label="Development step" max_length="40" name="development_step" type="boolean"/>
@@ -11,8 +20,8 @@
         <element label="Last Name" max_length="200" name="last_name" type="string"/>
         <element label="Name" max_length="100" name="name" type="string"/>
         <element label="Phone" max_length="200" name="phone" type="string"/>
-        <element label="Provide detailed description of requirement {Explain the use case}" max_length="800" name="provide_detailed_description" type="string"/>
-        <element label="Provide short description about your requirement" max_length="400" name="provide_short_description" type="string"/>
+        <element label="Provide detailed description of requirement {Explain the use case}" max_length="4000" name="provide_detailed_description" type="string"/>
+        <element label="Provide short description about your requirement" max_length="254" name="provide_short_description" type="string"/>
         <element label="Solution" max_length="40" name="solution" type="boolean"/>
         <element choice="1" label="Type of requirement" max_length="40" name="type_of_requirement" type="choice">
             <choice>
