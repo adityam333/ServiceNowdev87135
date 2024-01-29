@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_dictionary action="INSERT_OR_UPDATE" element="provide_short_description" table="x_520215_solve_solve_request">
-        <active>true</active>
+        <active>false</active>
         <array>false</array>
         <attributes/>
         <audit>false</audit>
@@ -58,7 +58,7 @@
         <sys_scope display_value="Solve">c097ab912f6331102e2aea5ef699b68b</sys_scope>
         <sys_update_name>sys_dictionary_x_520215_solve_solve_request_provide_short_description</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-16 19:56:37</sys_updated_on>
+        <sys_updated_on>2024-01-25 20:27:23</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
